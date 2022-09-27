@@ -1,0 +1,11 @@
+<launch>
+        <node pkg="move_husky" name="create_route" type="create_route" output="screen" >
+        </node>
+  
+        <node pkg="move_husky" name="move_husky_ring" type="move_husky_ring" output="screen" >
+        </node>
+        
+        <node pkg="move_husky" name="create_path" type="create_path" output="screen" >
+        </node>
+        
+</launch>
